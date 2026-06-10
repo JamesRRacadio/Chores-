@@ -32,11 +32,11 @@ chore_total_sum = chore_sum_1 + chore_sum_2 + chore_sum_3 #+ chore_sum_4 + chore
 
 #Add a new button for a chore.
 st.write(chore_total_sum)
-chore1 = st.session_state.button(df['chore1'])
+chore1 = st.session_state.button(st.session_state.df['chore1'])
 st.write(chore_sum_1)
-chore2 = st.session_state.button(df['chore2'])
+chore2 = st.session_state.button(st.session_state.df['chore2'])
 st.write(chore_sum_2)
-chore3 = st.session_state.button(df['chore3'])
+chore3 = st.session_state.button(st.session_state.df['chore3'])
 st.write(chore_sum_3)
 #chore4 = st.session_state.button(df['chore4'])
 #st.write(chore_sum_4)
