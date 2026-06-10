@@ -57,32 +57,3 @@ st.write(chore_sum_3)
 #st.write(chore_sum_10)
 
 #Set the action when the button is pressed.
-if chore1:
-	       try:
-		              new_row = pd.DataFrame({'chore1': [$1.00]})
-                      st.session_state.df = pd.concat([st.session_state.df, new_row], ignore_index=True)
-                      st.session_state.df.to_excel('C:\\Users\\Racadio\\Documents\\Chore_Project\\chore_sheet.xlsx', index=False)
-                      st.cache_data.clear()
-                      st.rerun()
-           except Exception as e:
-                      st.error(f"An error occurred while adding the entry: {e}")
-
-if chore2:
-           try:
-                      new_row = pd.DataFrame({'chore2': [$2.00]})
-                      st.session_state.df = pd.concat([st.session_state.df, new_row], ignore_index=True)
-                      st.session_state.df.to_excel('C:\\Users\\Racadio\\Documents\\Chore_Project\\chore_sheet.xlsx', index=False)
-                      st.cache_data.clear()
-                      st.rerun()
-            except Exception as e:
-                      st.error(f"An error occurred while adding the entry: {e}")
-
-if chore3:
-            try:
-                      new_row = pd.DataFrame({'chore3': [$2.00]})
-                      st.session_state.df = pd.concat([st.session_state.df, new_row], ignore_index=True)
-                      st.session_state.df.to_excel('C:\\Users\\Racadio\\Documents\\Chore_Project\\chore_sheet.xlsx', index=False)
-                      st.cache_data.clear()
-                      st.rerun()
-            except Exception as e:
-                      st.error(f"An error occurred while adding the entry: {e}")
