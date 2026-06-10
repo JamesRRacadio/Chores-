@@ -14,7 +14,7 @@ today = datetime.date.today()
 
 
 #Congifure the display for the main spreadsheet and allow for reloading the data.
-st.session_state.df = pd.read_excel('C:\\Users\\Racadio\\Documents\\Chore_Project\\chore_sheet.xlsx')
+st.session_state.df = pd.read_excel('chore_sheet.xlsx')
 
 #Format the date input.
 st.session_state.df['Date'] = pd.to_datetime(st.session_state.df['Date'], errors='coerce').dt.strftime('%m-%d-%Y')
