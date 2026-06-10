@@ -17,9 +17,9 @@ today = datetime.date.today()
 st.session_state.df = pd.read_excel('chore_sheet.xlsx')
 
 #variables for chore sums.
-chore_sum_1 = df['chore1'].sum(axis=2, numeric_only=True)
-chore_sum_2 = df['chore2'].sum(axis=2, numeric_only=True)
-chore_sum_3 = df['chore3'].sum(axis=2, numeric_only=True)
+chore_sum_1 = st.session_state.df['chore1'].sum(axis=2, numeric_only=True)
+chore_sum_2 = st.session_state.df['chore2'].sum(axis=2, numeric_only=True)
+chore_sum_3 = st.session_state.df['chore3'].sum(axis=2, numeric_only=True)
 #chore_sum_4 = df['chore4'].sum(axis=2, numeric_only=True)
 #chore_sum_5 = df['chore5'].sum(axis=2, numeric_only=True)
 #chore_sum_6 = df['chore6'].sum(axis=2, numeric_only=True)
