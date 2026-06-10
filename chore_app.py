@@ -59,7 +59,7 @@ st.write(chore_sum_3)
 #Set the action when the button is pressed.
 if chore1:
 	       try:
-		            new_row = pd.DataFrame({'chore1': [$1.00]})
+		              new_row = pd.DataFrame({'chore1': [$1.00]})
                       st.session_state.df = pd.concat([st.session_state.df, new_row], ignore_index=True)
                       st.session_state.df.to_excel('C:\\Users\\Racadio\\Documents\\Chore_Project\\chore_sheet.xlsx', index=False)
                       st.cache_data.clear()
