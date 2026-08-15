@@ -1,0 +1,5 @@
+flet>=0.85.3
+certifi
+os
+json
+flet_audio

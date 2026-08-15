@@ -1,0 +1,31 @@
+[project]
+name = "Chore Tracker 5000"
+version = "1.0.0"
+description = "Flet app to track chores and jobs."
+dependencies = [
+    "flet",
+    "certifi", # Manually force inclusion of SSL certificates
+    "flet-audio"
+]
+
+[tool.flet]
+product = "Chore Tracker 5000"
+build_number = 1
+
+[tool.flet.android]
+adaptive_icon_background = "#ffffff"  # Prevents black background issues on newer Android versions
+
+[tool.flet.flutter.pubspec.dependency_overrides]
+webview_flutter_android = "4.10.1"
+
+[tool.flet.splash]
+# The background color of the splash screen (Hex format)
+color = "#03a5e6"
+
+# Path to the splash screen logo (Must be a PNG file)
+image = "assets/splash.png"
+
+# Control which platforms display the native splash
+android = true
+ios = true
+web = true

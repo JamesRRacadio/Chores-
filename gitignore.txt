@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# --- Flet Build & Deployment Outputs ---
+build/
+dist/
+*.apk
+*.ipa
+*.exe
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Editors and IDEs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

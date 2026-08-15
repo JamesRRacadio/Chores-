@@ -1,0 +1,39 @@
+{
+  "total": [
+    0.0,
+    2.0,
+    0.0
+  ],
+  "total_paid": [
+    0.0,
+    2.0,
+    0.0
+  ],
+  "selected_page": "Page 1",
+  "page_options": [
+    {
+      "key": "Page 1",
+      "text": "Page 1"
+    },
+    {
+      "key": "Page 2",
+      "text": "Page 2"
+    },
+    {
+      "key": "Page 3",
+      "text": "Page 3"
+    }
+  ],
+  "theme_name": "Limon",
+  "chores": {
+    "Page 1": [
+      {
+        "title": "v",
+        "price": 5.0,
+        "sum": 0.0
+      }
+    ],
+    "Page 2": [],
+    "Page 3": []
+  }
+}
