@@ -1,4 +1,4 @@
-﻿# Chores
+﻿# Chore Tracker 500
 To build:
 flet build apk --arch arm64-v8a
 
